@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+double a;
+for(;;){
+printf("Length of one side of the square: ");
+scanf("%lf",&a);
+printf("Area of the square is: %lf\n\n",a*a);
+}
+return 0;
+}
